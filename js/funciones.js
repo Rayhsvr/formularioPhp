@@ -2,8 +2,6 @@ function validaNomina () {
   const f = document.getElementById('form1')
   const salario = parseFloat(f.salario.value)
   const dias = parseFloat(f.dias.value)
-  console.log(salario)
-  console.log(dias)
   if (salario <= 0 || dias < 0) {
     if (salario <= 0) {
       window.alert('El valor de Salario es incorrecto')
